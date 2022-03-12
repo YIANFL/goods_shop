@@ -1,0 +1,73 @@
+.header > .top {
+  background-color: #eaeaea;
+  height: 30px;
+  line-height: 30px;
+}
+.header > .top .container {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header > .top .container .loginList {
+  float: left;
+}
+.header > .top .container .loginList p {
+  float: left;
+  margin-right: 10px;
+}
+.header > .top .container .loginList p .register {
+  border-left: 1px solid #b3aeae;
+  padding: 0 5px;
+  margin-left: 5px;
+}
+.header > .top .container .typeList {
+  float: right;
+}
+.header > .top .container .typeList a {
+  padding: 0 10px;
+}
+.header > .top .container .typeList a + a {
+  border-left: 1px solid #b3aeae;
+}
+.header > .bottom {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.header > .bottom .logoArea {
+  float: left;
+}
+.header > .bottom .logoArea .logo img {
+  width: 175px;
+  margin: 25px 45px;
+}
+.header > .bottom .searchArea {
+  float: right;
+  margin-top: 35px;
+}
+.header > .bottom .searchArea .searchForm {
+  overflow: hidden;
+}
+.header > .bottom .searchArea .searchForm input {
+  box-sizing: border-box;
+  width: 490px;
+  height: 32px;
+  padding: 0px 4px;
+  border: 2px solid #ea4a36;
+  float: left;
+}
+.header > .bottom .searchArea .searchForm input:focus {
+  outline: none;
+}
+.header > .bottom .searchArea .searchForm button {
+  height: 32px;
+  width: 68px;
+  background-color: #ea4a36;
+  border: none;
+  color: #fff;
+  float: left;
+  cursor: pointer;
+}
+.header > .bottom .searchArea .searchForm button:focus {
+  outline: none;
+}
